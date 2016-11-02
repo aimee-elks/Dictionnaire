@@ -11,6 +11,7 @@ Dictionary* readFile(char* filepath, int isDictionary)
     LinkedList* liste = NULL;
     int count = 0 ;
 
+
     switch(isDictionary){
         case 0 :
             liste = readFile_Text(filepath);
